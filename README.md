@@ -1,2 +1,2 @@
-# rotate-by-13-places-rol13-
+# rotate_by_13_places(rol13)
 rotate by 13 places 
