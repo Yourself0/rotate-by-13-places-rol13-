@@ -10,7 +10,7 @@ def string_roll_for_13(strings,roll_forward):
     		if words in alpha:               # checking input words match with list in alpha
     			for v,k in enumerate(alpha): # seperating list key and value
     				if words in k:           # same as 10 line 
-    					v +=roll_forward
+    					v += roll_forward
     					if v >= len(alpha)-1: # if key is greater than index of alpha 
     						number_saver = abs(v-(len(alpha)))
     						wrd_list.append(alpha[number_saver])
